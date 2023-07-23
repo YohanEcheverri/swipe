@@ -1,0 +1,217 @@
+@media only screen and (min-width: 320px) and (max-width: 550px) {
+    .unified-platform-section {
+        background-color: #F7F9FC;
+        padding: 16px 0px;
+    }
+
+    .section-container{
+        padding: 0px 16px;
+    }
+
+    .subtitle {
+        color: #6962F7;
+        margin: 16px 0px;
+    }
+
+    h2 {
+        margin: 0px 0px 16px 0px;
+        font-size: 34px;
+    }
+
+    .col-left {
+        padding: 0px 16px 0px 0px;
+    }
+
+    .col-left p {
+        margin: 16px 0px;
+        font-size: 18px;
+    }
+
+    .col-left p a {
+        color: #6962F7;
+        text-decoration: none;
+    }
+
+    .col-right {
+        margin: 0;
+        padding: 0;
+    }
+
+    .col-right p {
+        margin: 16px 0px;
+        font-size: 18px;
+    }
+
+    .col-right p a {
+        color: #6962F7;
+        text-decoration: none;
+    }
+
+    .primary-button.with-icon {
+        color: white;
+        font-size: 16px;
+        margin: 16px 0px;
+        padding: 8px 16px;
+        background-color: #6962F7;
+        font-weight: bold;
+        border-radius: 20px;
+        border: none;
+        align-items: center;
+        display: flex;
+    }
+
+    .graphic-section {
+        display: flex;
+        background-color: #F7F9FC;
+        justify-content: center;
+    }
+
+    .graphic-grid {
+        padding: 32px 0px;
+        display: grid;
+        grid-template-areas: "card slack slack" "phone slack slack" "phone dash dash";
+        grid-gap: 32px;
+        padding: 32px 0px;
+    }
+    
+    #credit-card {
+        grid-area: card;
+        width: 100%;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+
+    #slack-invoice {
+        grid-area: slack;
+        width: 100%;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+
+    #phone {
+        grid-area: phone;
+        width: 100%;
+    }
+
+    #dash {
+        grid-area: dash;
+        width: 100%;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+
+}
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .unified-platform-section {
+        background-color: #F7F9FC;
+        padding: 64px 0px;
+    }
+
+    .section-container{
+        padding: 0px 16px;
+    }
+
+    .subtitle {
+        color: #6962F7;
+        margin: 16px 0px;
+        font-size: 17px;
+    }
+
+    h2 {
+        margin: 0px 0px 16px 0px;
+        font-size: 40px;
+        display: flex;
+        width: 50%;
+    }
+
+    .two-column{
+        display: flex;
+    }
+
+    .col-left {
+        padding: 0px 16px 0px 0px;
+        width: 100%;
+    }
+
+    .col-left p {
+        margin: 16px 0px;
+        font-size: 18px;
+    }
+
+    .col-left p a {
+        color: #6962F7;
+        text-decoration: none;
+    }
+
+    .col-right {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .col-right p {
+        margin: 16px 0px;
+        font-size: 18px;
+    }
+
+    .col-right p a {
+        color: #6962F7;
+        text-decoration: none;
+    }
+
+    .primary-button.with-icon {
+        color: white;
+        font-size: 16px;
+        margin: 16px 0px;
+        padding: 8px 16px;
+        background-color: #6962F7;
+        font-weight: bold;
+        border-radius: 20px;
+        border: none;
+        align-items: center;
+        display: flex;
+    }
+
+    .graphic-section {
+        display: flex;
+        background-color: #F7F9FC;
+        justify-content: center;
+    }
+
+    .graphic-grid {
+        padding: 32px 0px;
+        display: grid;
+        grid-template-areas: "card slack slack" "phone slack slack" "phone dash dash";
+        grid-gap: 32px;
+        padding: 32px 0px;
+    }
+    
+    #credit-card {
+        grid-area: card;
+        width: 100%;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+
+    #slack-invoice {
+        grid-area: slack;
+        width: 100%;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+
+    #phone {
+        grid-area: phone;
+        width: 100%;
+    }
+
+    #dash {
+        grid-area: dash;
+        width: 100%;
+        box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+    }
+}
