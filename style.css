@@ -1,0 +1,233 @@
+@media only screen and (min-width: 320px) and (max-width: 550px) {
+    html,body {
+        margin: 0;
+        padding: 0;
+    }
+    .integrations-section {
+        background-color: #0a2540;
+        clip-path: polygon(0% 2%, 100% 0%, 100% 98%, 0% 100%);
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        padding: 16px 0px 32px 0px;
+        margin: 0px 0px 16px 0px;
+        box-sizing: content-box;
+    }
+
+    .section-container.two-column {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 16px 0px 16px;
+    }
+
+    .col-left {
+        color: white;
+        margin: 32px 0px 0px 0px;
+        padding: 8px 8px 0px 0px;
+
+    }
+
+    .subtitle2 {
+        font-size: 17px;
+        margin: 16px 0px 0px 0px;
+        color: #00d4ff;
+        
+    }
+
+    .col-left h2 {
+        font-size: 34px;
+        padding: 0px 8px 0px 0px ;
+        line-height: 56px;
+    }
+
+    .col-left p {
+        font-size: 18px;
+        margin: 16px 0px;
+        padding: 0px 8px 0px 0px;
+    }
+
+    .primary-button.with-icon {
+        background-color: #00d4ff;
+        border: none;
+        border-radius: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: #0a2540;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 8px 16px;
+        margin: 16px 0px 0px;
+
+    }
+
+    .card-container {
+        margin: 32px 0px;
+    }
+
+    .card {
+        padding: 8px 16px 8px 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .icon {
+        width: 50px;
+        margin: 0px 0px 8px;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    p.secondary-text {
+        font-size: 14px;
+        margin: 16px 0px;
+        color: #adbdcc;
+    }
+
+    .secondary-button.with-icon {
+        background-color: transparent;
+        border: none;
+        color: #00d4ff;
+        align-items: center;
+        display: flex;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .col-right {
+        display: none;
+    }
+
+}
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    html,body {
+        margin: 0;
+        padding: 0;
+    }
+    .integrations-section {
+        background-color: #0a2540;
+        clip-path: polygon(0% 2%, 100% 0%, 100% 98%, 0% 100%);
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 16px 16px 32px 16px;
+        margin: 0px 0px 16px 0px;
+        box-sizing: content-box;
+    }
+
+    .section-container.two-column {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 0px 90px 0px 16px;
+    }
+
+    .col-left {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        color: white;
+        margin: 32px 0px 0px 0px;
+        padding: 0px 16px 0px 0px;
+
+    }
+
+    .subtitle2 {
+        font-size: 17px;
+        margin: 16px 0px 0px 0px;
+        color: #00d4ff;
+        
+    }
+
+    .col-left h2 {
+        font-size: 34px;
+        padding: 0px 16px 0px 0px ;
+        /* line-height: 56px; */
+    }
+
+    .col-left p {
+        font-size: 18px;
+        margin: 16px 0px;
+    }
+
+    .primary-button.with-icon {
+        background-color: #00d4ff;
+        border: none;
+        border-radius: 20px;
+        align-items: center;
+        width: 30%;
+        justify-content: center;
+        display: flex;
+        color: #0a2540;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 8px 16px;
+        margin: 16px 0px 0px;
+
+    }
+
+    .card-container {
+        margin: 32px 0px;
+        display: flex;
+    }
+
+    .card {
+        padding: 8px 16px 8px 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .icon {
+        width: 50px;
+        margin: 0px 0px 8px;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    p.secondary-text {
+        font-size: 14px;
+        margin: 16px 0px;
+        color: #adbdcc;
+    }
+
+    .secondary-button.with-icon {
+        background-color: transparent;
+        border: none;
+        color: #00d4ff;
+        align-items: center;
+        display: flex;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .col-right {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        box-sizing: content-box;
+        margin: 32px 0px;
+    } 
+
+    #api-code, #terminal-code {
+        display: flex;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    #terminal-code {
+        margin: 20px 0px 0px 0px;
+    }
+
+}
